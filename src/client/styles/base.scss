@@ -1,0 +1,51 @@
+$color: palegreen;
+$fontfamily: 'Montserrat';
+$none: none;
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-height:100vh;
+    padding:10px;
+    background-color:$color;
+    font-family:$fontfamily;
+    
+}
+
+body {
+    main {
+        flex: 2;
+        max-width:90%;
+        margin:0 auto;
+    }
+    form{
+    background-color:rgb(51, 54, 56);    
+    border: $none;
+    }
+}
+
+
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h2 {
+    color: darkolivegreen;
+    font-weight:bold;
+}
+
+#abtn{
+    background:palevioletred;
+    color:white;
+    margin:none;
+}
+
+#abtn:hover{
+    transform: scale(1.2);
+    margin:2px solid white;
+}

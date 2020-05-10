@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    flex-direction:row !important;
+    justify-content: flex-start;
+    padding: 10px 40px;
+    }
+
+    .title{
+        padding:20px auto;
+        margin-top:40px;
+        margin-left:10px;
+        h1{
+            font-size:20px;
+        }
+    }
+
+
+.logo{
+    height:100px;
+    width: 100px;
+    img {
+        width:100px;
+        height:auto;
+        object-fit:fill;
+    }
+}

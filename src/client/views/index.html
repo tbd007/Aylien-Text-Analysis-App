@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="logo">
+                <img src="https://aylien.com/wp-content/uploads/2019/03/facebook-og.png">
+            </div>
+            <div class="title">
+                <h1>Aylien NLP API Article Sentiment Analysis</h1>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <!-- <form class="" onsubmit="Client.default.handleSubmit(event)"> -->
+                    <input id="name" type="text" name="input"  placeholder="Text">
+                    <input id="abtn" type="submit" name="" value="ANALYZE"
+                    onclick="Client.handleSubmit(event)"
+                    >
+                    
+                <!-- </form> -->
+            <section>
+
+            <section>
+                <div id="resultdiv"><strong>SENTIMENT RESULTS</strong><br></div>
+                <div id="results">
+                <div><h2>Polarity</h2></div></div><div id="polarity"></div><br>
+                <div><h2>Subjectivity</h2> </div><div id="subjectivity"></div><br>
+                <div><h2>Polarity Confidence</h2></div><div id="polarity_confidence"></div><br>
+                <div><h2>Subjectivity Confidence</h2></div><div id="subjectivity_confidence"></div>
+                
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>TBD 2020</p>
+        </footer>
+         <script> 
+         // Check that service workers are supported -->
+          if ('serviceWorker' in navigator) { 
+               // Use the window load event to keep the page load performant -->
+                window.addEventListener('load', () => { 
+                   navigator.serviceWorker.register('dist/service-worker.js'); 
+            });
+          } 
+        </script> 
+    </body>
+</html>
