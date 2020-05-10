@@ -40,5 +40,7 @@ var textapi = new aylien({
   application_key: process.env.API_KEY
 });
 
+![NLP](https://user-images.githubusercontent.com/58664635/81506306-ab7d9b80-92f5-11ea-870f-0395b13f6ca2.png)
+
 
 
